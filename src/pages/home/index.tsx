@@ -7,7 +7,7 @@ import api from '../../services/api';
 
 import { toast } from 'react-toastify';
 
-import { Title, Form, Repositories, Error } from './style';
+import { Title, Form, Repositories, Error } from './styles';
 
 interface Repository {
   full_name: string,

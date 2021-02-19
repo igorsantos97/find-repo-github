@@ -6,7 +6,8 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import Logo from '../../img/logo-github.svg';
 import api from '../../services/api';
 
-import { Header, RepositoryInfo, Issues, Loader } from './style';
+import { Header, RepositoryInfo, Issues } from './styles';
+import Loader from '../../components/Loader';
 
 interface DetailsRepositoryParams {
   repository: string;
